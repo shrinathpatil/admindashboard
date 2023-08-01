@@ -1,0 +1,99 @@
+.app.dark{
+background-color: #222;
+color: rgb(156,156,156);
+
+.chartGrid{
+  stroke:rgba(228,228,228,0.219)  
+}
+.table{
+    background-color:#111 ;
+
+    .tableCell{
+        color:gray;
+
+    }
+}
+
+.navbar{
+    color: #999;
+    border-color:#333 ;
+
+    .search{
+        border-color: gray;
+
+    }
+}
+
+.sidebar{
+    background-color: #222;
+    border-color: #333;
+
+   .top{
+    .logo{
+        color: #999;
+    }
+
+   }
+   hr{
+    border-color: #333;
+   }
+   ul{
+    li{
+        &:hover{
+            background-color: #333;
+        }
+        .icon{
+            color:rgb(56, 156, 36)
+        }
+    }
+   }
+}
+.datatable{
+    .datagrid{
+        color: gray;
+        border-color: #333;
+
+        .cellWithStatus{
+           font-weight: 600;
+            background: transparent;
+         &.active{
+            color: green;
+            
+         }
+         &.passive{
+            color: crimson;
+         }
+         &.pending{
+            color: goldenrod;
+         }
+         border: none;
+
+        }
+        .viewButton{
+            color:rgb(40, 193, 231);
+            border-color:rgb(40, 193, 231) ;
+        }
+        .deleteButton{
+            color:rgb(215, 85, 29);
+            border-color:rgb(215, 85, 29) ;
+        }
+    }
+}
+
+input{
+    background-color: transparent;
+}
+.css-1ex1afd-MuiTableCell-root {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    display: table-cell;
+    vertical-align: inherit;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+    text-align: left;
+    padding: 16px;
+    color: rgb(120 116 116 / 87%);
+}
+}
